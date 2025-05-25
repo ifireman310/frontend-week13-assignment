@@ -1,0 +1,60 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Gochujang Tofu Bowl",
+      "link": "https://www.calumharris.com/therecipes/koreanstyletofubowl",
+      "author": "Calum Harris",
+      "category": "Bowls"
+    },
+    {
+      "id": "2",
+      "title": "Tofu Breakfast Scramble",
+      "link": "https://rainbowplantlife.com/eggy-tofu-scramble/",
+      "author": "Rainbow Plant Life",
+      "category": "Breakfast"
+    },
+    {
+      "id": "3",
+      "title": "Vegan Cuban Sandwich",
+      "link": "https://theeburgerdude.com/vegan-cuban-sandwich/",
+      "author": "Thee Burger Dude",
+      "category": "Sandwiches"
+    },
+    {
+      "id": "4",
+      "title": "Vegan Buffalo Cheesesteak",
+      "link": "https://theeburgerdude.com/vegan-buffalo-cheesesteak/",
+      "author": "Thee Burger Dude",
+      "category": "Sandwiches"
+    },
+    {
+      "id": "5",
+      "title": "Miso Lime & Ginger Fried Rice",
+      "link": "https://www.calumharris.com/therecipes/teriyaki-ish-fried-rice",
+      "author": "Calum Harris",
+      "category": "Bowls"
+    },
+    {
+      "id": "6",
+      "title": "8-Minute Noodles",
+      "link": "https://www.calumharris.com/therecipes/8-min-vegan-noodles",
+      "author": "Calum Harris",
+      "category": "Pasta"
+    },
+    {
+      "id": "7",
+      "title": "Sausage & Fennel Pasta with Crushed Tomato Sauce",
+      "link": "https://rainbowplantlife.com/sausage-fennel-pasta-with-crushed-tomato-sauce/#recipe",
+      "author": "Rainbow Plant Life",
+      "category": "Pasta"
+    },
+    {
+      "id": "8",
+      "title": "Freezer Vegan Breakfast Burritos",
+      "link": "https://theeburgerdude.com/freezer-vegan-breakfast-burritos/#recipe",
+      "author": "Thee Burger Dude",
+      "category": "Breakfast"
+    }
+  ]
+}

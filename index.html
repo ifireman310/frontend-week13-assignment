@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Repository</title>
+</head>
+
+<body class="container-fluid bg-dark">
+
+  <!-- Form to View Recipes -->
+  <fieldset class="bg-dark text-white">
+    <legend>View Recipes</legend>
+    <button id="all-recipes-button" class="btn btn-primary">Click to View All Recipes</button>
+    <br>
+    <br>
+    <p>Or</p>
+    <button id="filtered-recipes-button" class="btn btn-primary">View Recipes from Specific Category</button>
+    <select id="category-select">
+      <option value="">-- Select a Category --</option>
+    </select>
+  </fieldset>
+
+  <br>
+
+  <!-- Form to Add Recipes -->
+  <fieldset class="bg-dark text-white">
+    <legend>Add a Recipe</legend>
+    <label for="title">Recipe Title:</label>
+    <input type="text" id="recipe-title" name="recipe-title" />
+    <label for="link">Recipe Link:</label>
+    <input type="text" id="recipe-link" name="recipe-link" />
+    <br>
+    <br>
+    <label for="author">Recipe Author:</label>
+    <input type="text" id="recipe-author" name="recipe-author" />
+    <label for="category">Recipe Category:</label>
+    <input type="text" id="recipe-category" name="recipe-category" />
+    <button id="post-recipe-button" class="btn btn-success">Post Recipe</button>
+    <div id="response-post"></div>
+  </fieldset>
+
+  <br>
+
+  <!-- Form to Delete Recipes -->
+  <fieldset class="bg-dark text-white">
+    <legend>Delete a Recipe</legend>
+    <label for="body">Recipe ID:</label>
+    <input type="text" id="recipe-select" name="recipe-select" />
+    <button id="delete-recipe-button" class="btn btn-danger">Delete Recipe</button>
+    <div id="response-delete"></div>
+  </fieldset>
+
+  <br>
+  <br>
+
+  <!-- Button To Hide Recipes -->
+  <button id="hide-recipes-button" class="btn btn-secondary">Hide Recipes</button>
+
+  <br>
+  <br>
+
+  <!-- List of Recipes -->
+  <table id="recipe-list" class="container-fluid table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Recipe Name</th>
+        <th>Link</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Unique Id</th>
+      </tr>
+    </thead>
+    <tbody id="recipe-list-body">
+    </tbody>
+  </table>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
